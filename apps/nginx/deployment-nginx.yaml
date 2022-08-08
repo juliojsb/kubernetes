@@ -6,7 +6,7 @@ spec:
   selector:
     matchLabels:
       app: nginx #comentario otra vez
-  replicas: 2
+  replicas: 2 # comentario 20220808
   template:
     metadata:
       labels:
