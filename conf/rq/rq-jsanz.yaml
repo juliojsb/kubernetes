@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: ResourceQuota
+metadata:
+    name: jsanz-quota
+    namespace: jsanz
+spec:
+    hard:
+        pods: "8"
+        requests.cpu: "250m"
+        requests.memory: 500m
+        limits.cpu: "500m"
+        limits.memory: 1Gi
